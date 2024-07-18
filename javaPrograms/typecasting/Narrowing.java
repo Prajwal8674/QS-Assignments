@@ -1,12 +1,24 @@
-class Narrowig
+class Narrowing
 {
 	public static void main(String[] args) 
 	{
+		{
+		double d=120.45987890;
+		float f=(float)d;
+		long l=(long)d;
+		int i=(int)d;
+		char ch=(char)d;
+		short s=(short)d;
+		byte b=(byte)d;
+	
 		
-		double d=123.45987890;
-		float f= d;
-		
-		
-		System.out.println(f);
+		        System.out.println(f);
+				System.out.println(l);
+				System.out.println(i);
+				System.out.println(ch+" as i take double number as a charecter");
+				System.out.println(s);
+				System.out.println(b);
+				}
+				
 	}
 }
