@@ -79,6 +79,7 @@ class Narrowing
 	{
 			
 		char ch='x';
+		double d=ch;
 		short s=(short)ch;
 		byte b=(byte)ch;
 			    System.out.println("");
@@ -86,6 +87,7 @@ class Narrowing
 				System.out.println(ch+" (as i take char number as a charecter)");
 				System.out.println(s);
 				System.out.println(b);
+								System.out.println(d);
 				System.out.println("------------char narrowing end------------");
 				System.out.println("");
 			
@@ -95,9 +97,20 @@ class Narrowing
 		short s=120;
 		byte b=(byte)s;
 			    System.out.println("");
-				System.out.println("-------------char narrowing-------------");
+				System.out.println("-------------short narrowing-------------");
 				System.out.println(s);
 				System.out.println(b);
+				System.out.println("------------short narrowing end------------");
+				System.out.println("");
+			
+		}
+		
+		{
+		byte b=(byte)128;
+			    System.out.println("");
+				System.out.println("-------------char narrowing-------------");
+				System.out.println(b);
+				System.out.println("if im taking 128 input it will give me -128 putput because of cycle of byte to byte");
 				System.out.println("------------char narrowing end------------");
 				System.out.println("");
 			
