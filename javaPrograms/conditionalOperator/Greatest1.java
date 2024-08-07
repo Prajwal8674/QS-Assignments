@@ -10,9 +10,13 @@ class Greatest1
 	
 	int greater1 = n1 > n2 ? n1 : n2;
 	int greater2 = n3 > n4 ? n3 : n4;
+	int greatest = greater1 > greater2 ? greater1 : greater2 ;
 	
-	System.out.println(greater1);
+	//greatest2= (n1>n2?n1:n2)?
+	
+		System.out.println(greater1);
 		System.out.println(greater2);
+		System.out.println(greatest);
 	
 
 	}
