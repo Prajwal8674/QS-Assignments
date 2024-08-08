@@ -5,7 +5,7 @@ class RestaurantM{
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
-		int totalAmt,plate,dish;
+		int totalAmt=0,plate,dish;
 		
 		System.out.println();
 		System.out.println("+--------RESTAURANT---------+");
@@ -86,9 +86,7 @@ class RestaurantM{
 		totalAmt=plate*80;
 			break;
 		} 
-		default :{
-			
-		}
+		
 			 break;
 
 			 case 2:
@@ -101,12 +99,13 @@ class RestaurantM{
 		System.out.println("| 3 | CHICKEN ROLL      |  80 |");
 		System.out.println("|                             |");
 		System.out.println("+-----------------------------+");
-	    System.out.println();
+	    System.out.print("> ");
+		dish = sc.nextInt();
 
- switch(dish){
+        switch(dish){
 			
 			case 1 :
-			System.out.println();
+		System.out.println();
 		System.out.println("+-----------------------------+");
 		System.out.println("|   | DISH              |PRICE|");
 		System.out.println("|                             |");
@@ -151,30 +150,27 @@ class RestaurantM{
 		plate = sc.nextInt();
 		totalAmt=plate*80;
 			break;
+			
+			default :{
+			
+		}
 		} 
-		default :{
+		 
+			 break;
+			 
+			 default :{
 			
 		}
 			 
-			 break;
-			 
 		 }
 		
-		
-
-		
-
-
-
-
-
-
-
-
-		
-		
-		
-			
+        System.out.println();
+		System.out.println("+----------------------------+");
+		System.out.println("|                            |");
+		System.out.println("| - | TOTAL BILL  | "+totalAmt+" /-   |");
+		System.out.println("|                            |");
+		System.out.println("+----------------------------+");
+		System.out.print("> ");			
 		
 	}
 }
