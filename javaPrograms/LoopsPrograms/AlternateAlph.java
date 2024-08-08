@@ -12,9 +12,7 @@ class AlternateAlph{
 			
 			System.out.println(start++);
 			
-			start++;
-			start++;
-			
+			start++;			
 		}
 		
 	}
