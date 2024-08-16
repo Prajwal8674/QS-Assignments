@@ -1,8 +1,6 @@
 class SumOfOdd{
 	
 	public static void main(String []args){
-		
-		
 		int num = 121211;
 		int num2 = num;
 
@@ -19,9 +17,6 @@ class SumOfOdd{
 			num2/=10;
 		}			
 		System.out.println("TOTAL : "+sumEven);
-
-
-
 		while(num>0){
 			int last2=num%10;
 			//System.out.println(last);
@@ -34,11 +29,11 @@ class SumOfOdd{
 		System.out.println("TOTAL : "+sumOdd);
 
 		if(sumEven==sumOdd){
-					System.out.println("TOTAL IS SAME");
+			System.out.println("TOTAL IS SAME");
 
 		}
 		else{
-							System.out.println("TOTAL IS NOT SAME");
+			System.out.println("TOTAL IS NOT SAME");
 	
 		}
 	}
