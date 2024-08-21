@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-class ExtractNo{
+class ExtractNo1{
 	
 	public static void main(String []args){
 	
