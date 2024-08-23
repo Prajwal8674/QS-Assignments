@@ -7,17 +7,13 @@ public class BuzzNum {
         Scanner sc = new Scanner(System.in);
          System.out.print("Enter the number : ");
          int num = sc.nextInt();
+         int num2 = num;
+             num %= 10;
 
-         while(true){
-
-             num = num%10;
-             if(num%7==0){
+             if (num2 % 7 == 0 || num == 7) {
                  System.out.print("YES ! Its A Buzz Number");
-             }
-             else{
+             } else {
                  System.out.print("NO ! Its Not Buzz Number");
              }
-             break;
-         }
     }
 }
