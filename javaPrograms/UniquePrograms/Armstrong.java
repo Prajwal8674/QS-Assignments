@@ -15,6 +15,8 @@ public class Armstrong {
         int last=i%10;
         int pow=1;
 
+
+
         for(int j = 0; j<count; j++){
             pow=pow*last;
             sum=sum+pow;
