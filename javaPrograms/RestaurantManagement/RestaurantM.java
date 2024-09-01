@@ -1,8 +1,8 @@
+package RestaurantManagement;
 import java.util.Scanner;
-
 class RestaurantM{
 	
-	public static void main(String args[]){
+	public static void main(String[] args){
 		
 		Scanner sc = new Scanner(System.in);
 		int totalAmt=0,plate,dish;
@@ -150,14 +150,11 @@ class RestaurantM{
 		plate = sc.nextInt();
 		totalAmt=plate*80;
 			break;
-			
 			default :{
-			
 		}
 		} 
 		 
 			 break;
-			 
 			 default :{
 			
 		}
