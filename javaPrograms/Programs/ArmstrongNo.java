@@ -1,9 +1,11 @@
 package Programs;
 
 
+import java.util.Scanner;
+
 public class ArmstrongNo {
 
-    public static void pow(int num){
+    public static int pow(int num){
 
         int rem=0;
         int count=0;
@@ -12,12 +14,20 @@ public class ArmstrongNo {
             num=num/10;
             count++;
         }
-        System.out.println(count);
+        return count;
+    }
+    public static void checkArmstrong(){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println(pow(153));
+        //System.out.println("ENTER THE NUMBER : ");
+
+
     }
     public static void main(String[] args) {
 
-        int num=153;
-        pow(num);
+       // int num=153;
+        checkArmstrong();
 
     }
 }
