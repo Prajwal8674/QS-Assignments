@@ -26,7 +26,7 @@ public class SpecialTwoDigitNo {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.print("ENTER THE NUMBER: ");
+    System.out.print("ENTER THE NUMBER : ");
     int num = sc.nextInt();
     checkSpecial(num);
     }
