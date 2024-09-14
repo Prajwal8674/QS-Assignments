@@ -15,6 +15,7 @@ public class AddingMultipleData {
         for(int i=0 ; i<n ; i++ ){
            arr[i]= sc.nextInt();
         }
+        System.out.println("Array Elements Are : ");
 
         for(int i=0 ; i<n ; i++ ){
             System.out.println(arr[i]);
