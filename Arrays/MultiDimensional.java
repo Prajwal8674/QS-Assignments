@@ -12,9 +12,6 @@ public class MultiDimensional {
         System.out.print(num[0][3]+"  ");
         System.out.println(num[1][3]);
 
-
-
-
     }
 
 }
