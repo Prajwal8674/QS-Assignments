@@ -55,7 +55,23 @@ public class Main {
         System.out.println("Functionality : "+(sw3.callFunc==true?"With Calling Function ":"No Calling Function"));
         System.out.println(sw3.price+"/- only");
 
+        SmartWatch sw4 = new SmartWatch();
 
+        sw3.name="Revolt XR1";
+        sw3.brand="Fastrack";
+        sw3.Display="LCD";
+        sw3.displaySize=1.7;
+        sw3.strapColor="Black";
+        sw3.callFunc=false;
+        sw3.price=1099;
+
+        System.out.println(sw4.name);
+        System.out.println(sw4.brand);
+        System.out.println(sw4.Display);
+        System.out.println(sw4.displaySize +" inch");
+        System.out.println(sw4.strapColor);
+        System.out.println("Functionality : "+(sw3.callFunc==true?"With Calling Function ":"No Calling Function"));
+        System.out.println(sw4.price+"/- only");
 
     }
 }
