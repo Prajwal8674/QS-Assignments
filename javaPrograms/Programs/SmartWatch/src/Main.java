@@ -57,21 +57,39 @@ public class Main {
 
         SmartWatch sw4 = new SmartWatch();
 
-        sw3.name="Revolt XR1";
-        sw3.brand="Fastrack";
-        sw3.Display="LCD";
-        sw3.displaySize=1.7;
-        sw3.strapColor="Black";
-        sw3.callFunc=false;
-        sw3.price=1099;
+        sw4.name="Revolt XR1";
+        sw4.brand="Fastrack";
+        sw4.Display="LCD";
+        sw4.displaySize=1.7;
+        sw4.strapColor="Black";
+        sw4.callFunc=false;
+        sw4.price=1099;
 
         System.out.println(sw4.name);
         System.out.println(sw4.brand);
         System.out.println(sw4.Display);
         System.out.println(sw4.displaySize +" inch");
         System.out.println(sw4.strapColor);
-        System.out.println("Functionality : "+(sw3.callFunc==true?"With Calling Function ":"No Calling Function"));
+        System.out.println("Functionality : "+(sw4.callFunc==true?"With Calling Function ":"No Calling Function"));
         System.out.println(sw4.price+"/- only");
+
+        SmartWatch sw5 = new SmartWatch();
+
+        sw5.name="Smart 3";
+        sw5.brand="Titan";
+        sw5.Display="Amoled";
+        sw5.displaySize=1.96;
+        sw5.strapColor="green";
+        sw5.callFunc=true;
+        sw5.price=4995;
+
+        System.out.println(sw5.name);
+        System.out.println(sw5.brand);
+        System.out.println(sw5.Display);
+        System.out.println(sw5.displaySize +" inch");
+        System.out.println(sw5.strapColor);
+        System.out.println("Functionality : "+(sw5.callFunc==true?"With Calling Function ":"No Calling Function"));
+        System.out.println(sw5.price+"/- only");
 
     }
 }
