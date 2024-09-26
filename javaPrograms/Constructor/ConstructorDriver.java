@@ -1,6 +1,4 @@
 package Constructor;
-
-
 class Constructor {
 
     String name;
@@ -42,7 +40,6 @@ class Constructor {
     }
 }
 public class ConstructorDriver {
-
     public static void main(String[] args) {
 
         Constructor c1 =new Constructor();
