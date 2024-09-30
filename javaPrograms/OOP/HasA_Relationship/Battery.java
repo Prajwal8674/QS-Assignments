@@ -5,3 +5,4 @@ public class Battery{
     int life= 3;
     int capacity=5000;
 }
+
