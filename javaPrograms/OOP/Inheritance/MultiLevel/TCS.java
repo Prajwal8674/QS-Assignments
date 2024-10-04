@@ -1,6 +1,6 @@
 package OOP.Inheritance.MultiLevel;
-
 public class TCS extends SoftwareComp{
+
     String HQ;
     int employees;
     int project;
@@ -18,6 +18,7 @@ public class TCS extends SoftwareComp{
         this.project=project;
         this.loc=loc;
     }
+
     public void showTCSDetails(){
         System.out.println("HEADQUARTER         : "+HQ);
         System.out.println("TOTAL EMPLOYEES     : "+employees+"+");

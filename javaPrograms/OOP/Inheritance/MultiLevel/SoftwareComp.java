@@ -8,12 +8,14 @@ public class SoftwareComp {
     String type;
 
     SoftwareComp(){}
+
     SoftwareComp(String compName, String ceo, double turnOver, String type){
         this.compName=compName;
         this.ceo=ceo;
         this.turnOver=turnOver;
         this.type=type;
     }
+
     void displaySoftwareComp(){
         System.out.println("COMPANY NAME        : "+compName);
         System.out.println("COMPANY CEO         : "+ceo);
