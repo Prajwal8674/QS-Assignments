@@ -18,5 +18,13 @@ public class Laptop {
        this.storage=storage;
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+       Laptop l = (Laptop) obj;
+       if(this.brand==l.brand && this.name==l.name &&this.price==l.price &&
+               this.ram==l.ram &&this.storage==l.storage){
+          return true;
+       }
+        return false;
+    }
 }
