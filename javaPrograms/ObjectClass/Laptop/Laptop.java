@@ -18,4 +18,5 @@ public class Laptop {
        this.storage=storage;
     }
 
+
 }
