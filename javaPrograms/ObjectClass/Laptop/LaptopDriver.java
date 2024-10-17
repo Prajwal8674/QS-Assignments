@@ -12,9 +12,5 @@ public class LaptopDriver {
         if(l1.equals(l2)){
             System.out.println("There Is Duplicate Laptop in Shop");
         }
-        if(l1==l2){
-            System.out.println("There Is Duplicate Laptop in Shop");
-        }
-
     }
 }
