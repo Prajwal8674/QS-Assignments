@@ -8,7 +8,7 @@ public interface Calculator {
 
     void areaOfSquare(int side);
 
-    void areaOfRectangle(int lwngth, int breadth);
+    void areaOfRectangle(int length, int breadth);
 
     void areaOfTriangle(double base, double height);
 
