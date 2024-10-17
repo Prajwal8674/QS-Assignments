@@ -8,5 +8,6 @@ public class Main {
         c1.areaOfSquare(10);
         c1.areaOfRectangle(10,10);
         c1.areaOfTriangle(10,10);
+        c1.message();
     }
 }
