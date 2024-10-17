@@ -13,6 +13,8 @@ public class CalculatorImp1 implements  Calculator{
     }
     public void areaOfTriangle(double base, double height){
         System.out.println(0.5*base*height);
-
+    }
+    public void message(){
+        System.out.println("WELCOME !!");
     }
 }

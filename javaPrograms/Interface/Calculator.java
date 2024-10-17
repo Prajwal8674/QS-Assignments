@@ -12,7 +12,5 @@ public interface Calculator {
 
     void areaOfTriangle(double base, double height);
 
-    static void areaOfTriangle(){
-        
-    }
+    void message();
 }
