@@ -10,6 +10,10 @@ public class checkDatatype {
         sc.nextLine();
         String s = sc.nextLine();
 
+        int ii = Integer.parseInt(sc.nextLine());
+        double dd = Double.parseDouble(sc.nextLine());
+        String ss = sc.nextLine();
+
 
         System.out.println(i);
         System.out.println(d);
