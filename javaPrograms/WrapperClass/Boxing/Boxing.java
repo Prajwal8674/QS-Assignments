@@ -30,5 +30,9 @@ public class Boxing{
         double d = 100.0;       //DOUBLE
         Double D = new Double(d);
         System.out.println(D);
+
+        boolean bb = true;      //BOOLEAN
+        Boolean BB = new Boolean(bb);
+        System.out.println(BB);
     }
 }
