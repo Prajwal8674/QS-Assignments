@@ -17,6 +17,9 @@ public class Unboxing {
         int i = I.intValue();
         System.out.println(i);
 
+        Boolean BB = new Boolean(true);
+        boolean bb1 =  BB.booleanValue();
+        System.out.println(bb1);
 
 
 
