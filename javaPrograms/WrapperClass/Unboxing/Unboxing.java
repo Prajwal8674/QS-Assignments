@@ -20,8 +20,5 @@ public class Unboxing {
         Boolean BB = new Boolean(true);
         boolean bb1 =  BB.booleanValue();
         System.out.println(bb1);
-
-
-
     }
 }
