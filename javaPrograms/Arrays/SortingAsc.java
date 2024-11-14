@@ -1,23 +1,25 @@
-import java.lang.reflect.Array;
+package Arrays;
+
 import java.util.Arrays;
 
 public class SortingAsc {
+
     public static void main(String[] args) {
 
-        int arr[]={6,4,7,8,4,9,9,2};
-        int temp ;
-        for(int i=0; i< arr.length; i++)
-        {
-            for(int j = i+1; j< arr.length; j++)
-            {
-                if(arr[i]<arr[j])
-                {
-                    temp = arr[i] ;
-                    arr[i] =  arr[j];
-                    arr[j] = temp;
+        int arr[] ={2,4,6,0,8,1};
+        int temp;
+        for(int i =0 ; i< arr.length-1;i++){
+
+            for(int j = 0;j< arr.length-1-i; j++){
+
+                if(arr[j]>arr[j+1]){
+
+                   temp=arr[j];
+                   arr[j]=arr[j+1];
+                   arr[j+1]=temp;
                 }
             }
         }
-            System.out.println(arr[1]);
+        System.out.println(Arrays.toString(arr));
     }
 }

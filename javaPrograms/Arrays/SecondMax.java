@@ -1,16 +1,24 @@
+package Arrays;
+
 import java.util.Arrays;
 
 public class SecondMax {
     public static void main(String[] args) {
 
-        int secondMax=0;
-        int arr[]={1,10,10,9,2,3,6,4,5};
+        int arr[]={1,5,3,7,34,89,5,23,45};
+        int temp;
+        for(int i = 0 ; i < arr.length-1 ; i++){
 
-        Arrays.sort(arr);
-        //System.out.println(arr[arr.length-2]);
+             for (int j = 0 ; j < arr.length-1 ; j++){
 
-        secondMax=arr.length-2;
-        System.out.println(arr[secondMax]);
-
+                 if(arr[j]>arr[j+1]){
+                     temp = arr[j];
+                     arr[j]=arr[j+1];
+                     arr[j+1]= temp;
+                 }
+             }
+        }
+        System.out.println(Arrays.toString(arr));
+        System.out.println("Second Max : "+ arr[arr.length-2 ]);
     }
 }

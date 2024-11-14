@@ -9,7 +9,6 @@ public class PrimeNumber {
         System.out.println("Enter the number");
         int num=sc.nextInt();
 
-
         for(; den<num  ; den++ ){
           if(num%den==0){
               break;
