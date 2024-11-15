@@ -5,7 +5,7 @@ public class Student {
     int id;
     char gender;
     String name;
-    int age;
+   public int age;
     String college;
     double percent;
     int yop;
@@ -23,6 +23,17 @@ public class Student {
         this.yop=yop;
     }
 
+    public void displayData(){
+        System.out.println("ID : " + id);
+        System.out.println("ID : " + id);
+        System.out.println("ID : " + id);
+        System.out.println("ID : " + id);
+        System.out.println("ID : " + id);
+        System.out.println("ID : " + id);
+
+
+
+    }
     public void sortByAge(){
 
     }
