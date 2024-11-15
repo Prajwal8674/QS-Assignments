@@ -1,11 +1,13 @@
 package Arrays.MiniProject;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static final Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
+        int temp;
         Student[] s1 =  new Student[6];
         s1[0]= new Student(1,"Prajwal",21, 'M',"Hislop",73,2024);
         s1[1]= new Student(2,"Rishabh",22,'M',"Hislop",78,2025);
@@ -26,17 +28,29 @@ public class Main {
 
         switch(a){
             case 1:
-                System.out.println("      SEARCH BY ID");
+                System.out.println("       SEARCH BY ID");
                 break;
             case 2:
-                System.out.println("      SORT BY AGE");
+                System.out.println("       SORT BY AGE");
 
+                for(int i = 0 ; i < s1.length-1 ; i++){
+
+                    for(int j = 0 ; j < s1.length-1-i ; j++){
+
+                        if(s1[j].age<s1[j+1].age){
+                            temp= s1[j].age;
+                            s1[j].age=s1[j+1].age;
+                            s1[j+1].age=temp;
+                        }
+                    }
+                }
+                System.out.println(Arrays.toString(s1));
                 break;
             case 3:
-                System.out.println("      SORT BY PERCENTAGE");
+                System.out.println("       SORT BY PERCENTAGE");
                 break;
             default:
-                System.out.println("        CHECK INPUT AGAIN !");
+                System.out.println("         CHECK INPUT AGAIN !");
         }
     }
 }

@@ -10,7 +10,7 @@ public class Student {
     double percent;
     int yop;
 
-    //Student(){}
+    Student(){}
 
     public Student(int id, String name, int age, char gender,  String college ,double percent, int yop){
 
