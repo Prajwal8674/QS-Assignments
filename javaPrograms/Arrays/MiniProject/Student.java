@@ -5,29 +5,35 @@ public class Student {
     int id;
     char gender;
     String name;
+    int age;
     String college;
     double percent;
     int yop;
 
     //Student(){}
 
-    public Student(int id, String name, char gender,  String college ,double percent, int yop){
+    public Student(int id, String name, int age, char gender,  String college ,double percent, int yop){
 
         this.id=id;
         this.name=name;
         this.gender=gender;
+        this.age=age;
         this.college=college;
         this.percent=percent;
         this.yop=yop;
     }
 
+    public void sortByAge(){
+
+    }
     @Override
     public String toString() {
         return "[ " +
-                "college = '" + college + '\'' +
-                ", id = " + id +
+                "id = '" + id + '\'' +
+                ", name = " + name +
+                ", age = " + age +
                 ", gender = " + gender +
-                ", name = '" + name + '\'' +
+                ", college = '" + college + '\'' +
                 ", percent = " + percent +
                 ", yop = " + yop +
                 ']';
