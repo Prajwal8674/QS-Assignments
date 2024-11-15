@@ -19,18 +19,17 @@ public class Student {
         this.college=college;
         this.percent=percent;
         this.yop=yop;
-
     }
 
     @Override
     public String toString() {
-        return "Student{" +
-                "college='" + college + '\'' +
-                ", id=" + id +
-                ", gender=" + gender +
-                ", name='" + name + '\'' +
-                ", percent=" + percent +
-                ", yop=" + yop +
-                '}';
+        return "[ " +
+                "college = '" + college + '\'' +
+                ", id = " + id +
+                ", gender = " + gender +
+                ", name = '" + name + '\'' +
+                ", percent = " + percent +
+                ", yop = " + yop +
+                ']';
     }
 }
