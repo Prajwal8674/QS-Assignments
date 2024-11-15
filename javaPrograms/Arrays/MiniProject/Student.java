@@ -24,14 +24,14 @@ public class Student {
     }
 
     public void displayData(){
-        System.out.println("ID : " + id);
-        System.out.println("ID : " + id);
-        System.out.println("ID : " + id);
-        System.out.println("ID : " + id);
-        System.out.println("ID : " + id);
-        System.out.println("ID : " + id);
-
-
+        System.out.println("ID              : " + id);
+        System.out.println("NAME            : " + name);
+        System.out.println("AGE             : " + age);
+        System.out.println("GENDER          : " + gender);
+        System.out.println("COLLEGE         : " + college);
+        System.out.println("PERCENTAGE      : " + percent);
+        System.out.println("YEAR OF PASSOUT : " + yop);
+        System.out.println();
 
     }
     public void sortByAge(){

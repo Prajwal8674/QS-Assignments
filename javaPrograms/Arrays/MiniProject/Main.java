@@ -34,17 +34,9 @@ public class Main {
                 System.out.println("       SORT BY AGE");
 
                 for(int i = 0 ; i < s1.length-1 ; i++){
-
-                    for(int j = 0 ; j < s1.length-1-i ; j++){
-
-                        if(s1[j].age<s1[j+1].age){
-                            temp= s1[j].age;
-                            s1[j].age=s1[j+1].age;
-                            s1[j+1].age=temp;
-                        }
-                    }
+                    s1[i].displayData();
                 }
-                System.out.println(Arrays.toString(s1));
+               // System.out.println(Arrays.toString(s1));
                 break;
             case 3:
                 System.out.println("       SORT BY PERCENTAGE");
