@@ -23,6 +23,7 @@ public class Student {
         this.yop=yop;
     }
 
+
     public void displayData(){
         System.out.println("ID              : " + id);
         System.out.println("NAME            : " + name);
@@ -32,11 +33,9 @@ public class Student {
         System.out.println("PERCENTAGE      : " + percent);
         System.out.println("YEAR OF PASSOUT : " + yop);
         System.out.println();
-
     }
-    public void sortByAge(){
 
-    }
+
     @Override
     public String toString() {
         return "[ " +
