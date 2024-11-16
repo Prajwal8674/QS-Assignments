@@ -1,6 +1,8 @@
 package Arrays.MiniProject;
 
 
+import java.util.Arrays;
+
 public class Manipulation {
 
     Student s1 = new Student();
@@ -49,6 +51,25 @@ public class Manipulation {
                 }
             }
         }
+    }
+    public void RemoveFail(Student[] arr) {
+
+        int countOfPass = 0;
+
+            for(int j = 0 ; j < arr.length;j++){
+                if (arr[j].percent > 35 && arr[j].percent < 100) {
+                    countOfPass++;
+                }
+            }
+        Student[] passStudents = new Student[countOfPass];
+        int k =0;
+        for(int i = 0; i< arr.length ; i++){
+                if(arr[i].percent > 35){
+                    passStudents[k]=arr[i];
+                    k++;
+                }
+        }
+        System.out.println(Arrays.toString(passStudents));
     }
     public Student searchById(Student arr[], int size, int value){
 

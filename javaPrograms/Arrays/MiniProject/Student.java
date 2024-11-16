@@ -38,14 +38,13 @@ public class Student {
 
     @Override
     public String toString() {
-        return "[ " +
-                "id = '" + id + '\'' +
+        return " " +
+                "\n id = '" + id + '\'' +
                 ", name = " + name +
-                ", age = " + age +
-                ", gender = " + gender +
-                ", college = '" + college + '\'' +
-                ", percent = " + percent +
-                ", yop = " + yop +
-                ']';
+                " age = " + age +
+                " gender = " + gender +
+                " college = '" + college + '\'' +
+                " percent = " + percent +
+                " yop = " + yop ;
     }
 }
