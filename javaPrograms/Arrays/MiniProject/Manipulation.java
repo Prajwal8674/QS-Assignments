@@ -35,6 +35,21 @@ public class Manipulation {
             }
         }
     }
+    public void sortBypercent(Student[] arr){
+
+        for(int i = 0 ; i < arr.length-1; i++){
+
+            for(int j = 0 ; j < arr.length-1-i ; j++){
+
+                if(arr[j].percent>arr[j+1].percent){
+                    Student[] temp = new Student[arr.length] ;
+                    temp[j] = arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]= temp[j];
+                }
+            }
+        }
+    }
     public Student searchById(Student arr[], int size, int value){
 
        int start=0;

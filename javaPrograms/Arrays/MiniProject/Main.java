@@ -39,9 +39,7 @@ public class Main {
                 break;
             case 3:
                 System.out.println("       SORT BY PERCENTAGE");
-                for(int i = 0 ; i < s1.length-1 ; i++){
-                    s1[i].displayData();
-                }
+                m1.sortBypercent(s1);
                 break;
             default:
                 System.out.println("         CHECK INPUT AGAIN !");
