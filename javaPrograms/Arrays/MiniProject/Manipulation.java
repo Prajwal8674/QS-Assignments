@@ -98,6 +98,7 @@ public class Manipulation {
         for (int i = 0 ; i < arr.length-1; i++){
             return new Student[i];
         }
+
          return new Student[0];
     }
 }
