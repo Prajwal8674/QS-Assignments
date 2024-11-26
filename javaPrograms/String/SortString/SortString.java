@@ -3,10 +3,12 @@ package String.SortString;
 import java.util.Arrays;
 public class SortString {
 
+
     public static void main(String[] args) {
 
         String str = "abdcs";
         char[] str2 = new char[str.length()];
+
         char temp;
         for(int i = 0 ; i < str.length() ; i++){
             str2[i]= str.charAt(i);
