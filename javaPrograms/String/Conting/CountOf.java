@@ -32,6 +32,5 @@ public class CountOf {
         System.out.println("TOTAL LOWERCASE          : "+lowerCase);
         System.out.println("TOTAL DIGITS             : "+digits);
         System.out.println("TOTAL SPECIAL CHARACTERS : "+specialChar);
-
     }
 }
