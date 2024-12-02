@@ -1,7 +1,5 @@
 package String.FirstCharOfEachWord;
 
-import java.util.Arrays;
-
 public class FirstCharOfEach {
 
     public static void main(String[] args) {
