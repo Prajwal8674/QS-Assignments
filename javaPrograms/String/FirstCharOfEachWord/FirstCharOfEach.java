@@ -15,11 +15,9 @@ public class FirstCharOfEach {
            ch[i]=str.charAt(i);
         }
         for(int i = 0 ; i < str.length() ; i++){
-
             if(ch[i]==' '){
                 ans+=ch[i+1];
             }
-
         }
         System.out.println(ans);
     }
