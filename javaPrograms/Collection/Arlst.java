@@ -12,6 +12,7 @@ public class Arlst {
         list.add("hello2");
 
         /*
+
        for (int i = 0; i < list.size(); i++) {
             String value = list.get(i);
             if(value.length()%2==0){
