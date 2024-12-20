@@ -1,0 +1,28 @@
+span{
+    background : yellow ;
+    height: 20px;
+    display: inline-block;
+
+}
+h1{
+width: 500px;
+height: 200px;
+background-color: lightskyblue;
+}
+span:hover+h1{
+    display: block;
+}
+div{
+    width: 200px;
+    height:100px;
+    background-color: red;
+
+}
+button:hover+div{
+    background-color: green;
+    display: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
