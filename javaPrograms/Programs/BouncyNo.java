@@ -20,20 +20,19 @@ public class BouncyNo {
             if(previous > current) {
                 next = true;
             }
-
             if(prev && next){
                 return true;
             }
             previous = current;
             num/=10;
-
         }
-
          return false;
+
+
     }
     public static void main(String[] args) {
 
-        int num=21;
+        int num=12435;
         System.out.println(checkBouncy(num));
     }
 }
