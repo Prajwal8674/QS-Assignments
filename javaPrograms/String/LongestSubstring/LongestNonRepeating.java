@@ -24,7 +24,7 @@ public class LongestNonRepeating {
     }
     public static void main(String[] args) {
 
-        String str = "aabbcdeffghhhhhh";
+        String str = "pwwkew";
         System.out.println(nonRepeatingSubS(str));
 
     }
