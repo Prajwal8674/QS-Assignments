@@ -9,8 +9,8 @@ import java.awt.Dimension;
 public class Random {
     public static void main(String[] args) {
         try {
-            // Load the image
-            File file = new File("D:\\QS\\javaPrograms\\random\\CHHATRAPATI.jpg");
+
+            File file = new File("D:\\QS\\javaPrograms\\random\\chh.jpg");
             BufferedImage originalImage = ImageIO.read(file);
 
             int newWidth = 200; // Adjust this value to control the width of the output image
