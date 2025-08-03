@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 public class TwoPointerMerging {
 
-
     public static int[] findMedian(int[] arr1, int[] arr2){
 
         int[] ans = new int[arr1.length + arr2.length];
