@@ -1,0 +1,41 @@
+
+/* 
+
+article>p{
+    color: blue;
+}   
+article section{
+    color: red;
+}
+
+ */
+
+ /* for pseudo class */
+ h1{
+    display: none;
+ }
+img{
+    display: none;
+}
+ a{
+    color: blue;
+    transition: 2s;
+ }
+ a:hover + img{
+
+    display: block;
+    color: red;
+    cursor: pointer;
+ }
+ a:hover + h1{
+    display: block;
+    color: red;
+    cursor: pointer;
+ }
+ a:active + h1{
+    display: block;
+    color: pink;
+ }
+ 
+ 
+
