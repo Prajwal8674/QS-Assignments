@@ -5,7 +5,8 @@ public class VarPrint {
     static int y = 20;
 
     public static void main(String[] args) {
-        VarPrint t1 = new VarPrint();
+        VarPrin
+        t t1 = new VarPrint();
         t1.x=99;
         t1.y=88;
 
