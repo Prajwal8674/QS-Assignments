@@ -1,4 +1,5 @@
 package NptelPrograms.week2;
+
 public class VarPrint {
     int x = 30;
     static int y = 20;
