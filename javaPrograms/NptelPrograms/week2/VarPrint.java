@@ -4,7 +4,6 @@ public class VarPrint {
     int x = 30;
     static int y = 20;
 
-
     public static void main(String[] args) {
         VarPrint t1 = new VarPrint();
         t1.x=99;
